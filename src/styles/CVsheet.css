@@ -1,0 +1,73 @@
+.cv-sheet-container{
+  height: 150vh;
+  background-color: white;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.cv-sheet-header{
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  background-color: #0e374e;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.cv-sheet-header .title-name{
+  font-size: 30px;
+  font-weight: 600;
+}
+.cv-sheet-header .personal-details{
+  display: flex;
+  gap: 20px;
+}
+
+.cv-sheet-container .list-card{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cv-sheet-container .card{
+  display: flex;
+  gap: 50px;
+}
+
+.card-header .card-title{
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+}
+.card .card-description{
+  flex: 2;
+  text-align: right;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.card .card-header{
+  flex: 4;
+}
+
+.email, .phone, .address{
+  font-size: 15px;
+}
+
+.main-information{
+  padding: 0 20px 50px 20px;
+}
+
+.main-information .title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e374e;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+

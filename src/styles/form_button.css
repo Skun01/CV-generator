@@ -1,0 +1,16 @@
+
+.tool-button{
+  transition: all 0.2s ease-in-out;
+}
+
+.tool-button:hover{
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tool-button:active{
+  transform: scale(0.95);
+}
+
+.tool-button.clear-resume{
+  color: #B91C1C;
+}

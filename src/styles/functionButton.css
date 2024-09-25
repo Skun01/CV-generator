@@ -1,0 +1,42 @@
+.function-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.function-button{
+  margin-left: 10px;
+}
+
+.delete-btn, .cancel-btn, .save-btn{  
+  transition: all 0.15s ease-in-out;
+}
+
+.delete-btn{
+  border: 1px solid #b71c1c;
+  color: #b71c1c;
+}
+
+.cancel-btn{
+  border: 1px solid #0d47a1;
+  color: #0d47a1;
+}
+
+.save-btn{
+  border: 1px solid #1b5e20;
+  color: #1b5e20;
+}
+
+.delete-btn:hover{
+  background-color: #b71c1c;
+  color: white;
+}
+
+.cancel-btn:hover{
+  background-color: #0d47a1;
+  color: white;
+} 
+
+.save-btn:hover{
+  background-color: #1b5e20;
+  color: white;
+}

@@ -1,0 +1,167 @@
+/* input container styles */
+.input-container{
+  position: relative;
+}
+
+.input-container label{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: black;
+  transition: 0.2s ease all;
+  font-weight: 600;
+}
+
+.input-container input{
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.1s linear;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+  background-color: white;
+  transform: translateY(-30px) translateX(-5px);
+  font-size: 12px;
+  color: #007bff;
+}
+
+
+.input-container input:focus {
+  border: 1px solid #007bff;
+  background-color: transparent;
+}
+
+/* file input container styles */
+
+.input-file-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-file-container label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.file-input-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.file-input-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.file-input-button:hover {
+  background-color: #e0e0e0;
+}
+
+.file-name {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.file-input-wrapper{
+  position: relative;
+  width: 150px;
+  height: 40px;
+}
+
+button.file-input-button{
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.input-file-container input[type=file]:hover{
+  background-color: white;
+  z-index: 10;
+}
+
+.input-file-container input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.input-file-container input[type=file]:hover{
+  background-color: #e0e0e0;
+}
+
+.input-date-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-date-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-date-container label{
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input-textarea-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-textarea-container label{
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input-textarea-container textarea{
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.1s linear;
+}
+
+.input-textarea-container textarea:focus {
+  border: 1px solid #007bff;
+  background-color: transparent;
+}
+
